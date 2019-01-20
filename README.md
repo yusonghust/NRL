@@ -2,7 +2,7 @@
 Network Representation Learning   
 Tensorflow implemention of deepwalk and non-negative matrix factorization   
 [A standard NE/NRL(Network Representation Learning）training and testing framework](https://github.com/thunlp/OpenNE)   
-[A simple tensorflow implemention of Graph convolution network](https://github.com/cherisyu/gcn)
+[A simple tensorflow implemention of Graph convolutional network](https://github.com/cherisyu/gcn)
 
 
 **Deepwalk and NMF**      
