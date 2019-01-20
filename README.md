@@ -1,6 +1,12 @@
 # NRL
 Network Representation Learning   
 Tensorflow implemention of deepwalk and non-negative matrix factorization   
+[A standard NE/NRL(Network Representation Learning）training and testing framework](https://github.com/thunlp/OpenNE)   
+
+**DataSet:**  
+[datasets are from here](https://github.com/thunlp/OpenNE/tree/master/data)  
+Wiki : 2405 nodes, 17981 edges, 17 labels, directed   
+Cora : 2708 nodes, 5429 edges, 7 labels, directed   
 
 **Deepwalk and NMF**      
 Args:   
