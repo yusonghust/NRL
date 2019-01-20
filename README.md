@@ -9,6 +9,7 @@ Args:
 --weighted: treat the graph as weighted; this is an action;   
 --directed: treat the graph as directed; this is an action;   
 --labelfile: node labels, looks like node_id label_id;   
+--embfile: save embedding file here;   
 --lr: learning rate, default is 0.01;   
 --epochs: training epochs, default is 200;   
 --dims: representation dimension;   
