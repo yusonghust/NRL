@@ -26,13 +26,17 @@ Wiki : 2405 nodes, 17981 edges, 17 labels, directed
 Cora : 2708 nodes, 5429 edges, 7 labels, directed   
 
 if you want to test deepwalk in cora dataset:   
-```cd deepwalk```   
+```
+cd deepwalk
+```   
 ```
 python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb --directed
 ```   
 
 if you want to test nmf in cora dataset:   
-```cd NMF```   
+```
+cd NMF
+```   
 ```
 python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb --directed
 ```   
