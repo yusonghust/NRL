@@ -25,7 +25,14 @@ if you want to test nmf in cora dataset:
 ```cd NMF```   
 ```python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb```   
 
+**node classification result of deepwalk**   
 |dataset|cora|wiki|
 |:---|:---|:---|
 |micro-f1|0.774|0.569|
 |macro-f1|0.759|0.418|
+   
+**node classification result of NMF**   
+|dataset|cora|wiki|
+|:---|:---|:---|
+|micro-f1|0.710|0.618|
+|macro-f1|0.694|0.479|
