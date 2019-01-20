@@ -2,7 +2,7 @@
 Network Representation Learning   
 Tensorflow implemention of deepwalk and non-negative matrix factorization   
 
-# Deepwalk and NMF   
+**Deepwalk and NMF**      
 Args:   
 ```
 --edgelist: edgelist file, looks like node1 node2 <weight_float, optional>;   
@@ -17,8 +17,15 @@ Args:
 --num_walks: number of walks foe each node(only for deepwalk);   
 --clf-retio: the ratio of training data for node classification; the default is 0.5;
 ```   
-if you want to test deepwalk or nmf in cora dataset:   
-```cd cora```   
+if you want to test deepwalk in cora dataset:   
+```cd deepwalk```   
 ```python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb```   
 
+if you want to test nmf in cora dataset:   
+```cd NMF```   
+```python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb```   
 
+|dataset|cora|wiki|
+|:---|:---|:---|
+|micro-f1|0.774|0.569|
+|macro-f1|0.759|0.418|
