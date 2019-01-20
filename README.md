@@ -30,7 +30,6 @@ if you want to test nmf in cora dataset:
 |:---|:---|:---|
 |micro-f1|0.774|0.569|
 |macro-f1|0.759|0.418|
-   
 **node classification result of NMF**   
 |dataset|cora|wiki|
 |:---|:---|:---|
