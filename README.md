@@ -3,10 +3,6 @@ Network Representation Learning
 Tensorflow implemention of deepwalk and non-negative matrix factorization   
 [A standard NE/NRL(Network Representation Learning）training and testing framework](https://github.com/thunlp/OpenNE)   
 
-**DataSet:**  
-[datasets are from here](https://github.com/thunlp/OpenNE/tree/master/data)  
-Wiki : 2405 nodes, 17981 edges, 17 labels, directed   
-Cora : 2708 nodes, 5429 edges, 7 labels, directed   
 
 **Deepwalk and NMF**      
 Args:   
@@ -24,6 +20,11 @@ Args:
 --num_walks: number of walks foe each node(only for deepwalk);   
 --clf-retio: the ratio of training data for node classification; the default is 0.5;
 ```   
+**DataSet:**  
+[datasets are from here](https://github.com/thunlp/OpenNE/tree/master/data)  
+Wiki : 2405 nodes, 17981 edges, 17 labels, directed   
+Cora : 2708 nodes, 5429 edges, 7 labels, directed   
+
 if you want to test deepwalk in cora dataset:   
 ```cd deepwalk```   
 ```python main.py --edgelist ./data/cora/cora.edgelist --labelfile ./data/cora/cora.labels --embfile ./data/cora/cora.emb```   
